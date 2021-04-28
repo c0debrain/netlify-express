@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
   // res.write('<h1>Hello from Express.js!!</h1>');
   // res.end();
   console.log("index")
-  res.sendFile(path.join(__dirname + '/../app/index.html'));
+  res.sendFile(path.join(__dirname + '../app/index.html'));
 });
 
 router.get('/test', (req, res) => {
